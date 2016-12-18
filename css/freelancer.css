@@ -512,9 +512,9 @@ fieldset[disabled] .btn-success.active {
 }
 .link:hover {
   text-shadow: 0 0 2px #999;
-  white-space: nowrap;
 }
 ul.contrib-list {
+  font-size: 16px;
   margin-top: -10px;
   list-style: none;
   padding: 0;
@@ -528,5 +528,5 @@ li.contrib-list-item:before  {
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -14px;
-  width: 14px;
+  width: 16px;
 }
