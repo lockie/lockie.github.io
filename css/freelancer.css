@@ -530,7 +530,9 @@ li.contrib-list-item:before  {
   margin-left: -14px;
   width: 16px;
 }
-.second-column {
-  margin-right: -10px;
-  margin-left: 10px;
+@media (min-width: 992px) {
+  .second-column {
+    margin-right: -10px;
+    margin-left: 10px;
+  }
 }
